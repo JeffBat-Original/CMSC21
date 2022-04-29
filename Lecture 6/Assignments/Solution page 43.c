@@ -1,6 +1,6 @@
 /* Reverses a series of numbers */
 
-#include <studio.h>
+#include <stdio.h>
 #define n_students 5
 
 int main (void){

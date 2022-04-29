@@ -1,6 +1,6 @@
 /* finds the negative numbers in an array */
 
-#include <studio.h>
+#include <stdio.h>
 
 int main(void){
     int N, i;

@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 int main(void){
     printf ("Size of char data type: %u\n", sizeof(char));

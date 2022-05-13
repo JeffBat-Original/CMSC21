@@ -17,13 +17,13 @@ int main(){
         sum_per_reviewer = 0;
 
         for (int movie = 0; movie < N_MOVIES; movie++){
-            printf ("%.0f ", ratings[reviewer][movie]);
-            sum_per_reviewer += ratings[reviewer][movie];
+            printf ("%.0f ", rating[reviewer][movie]);
+            sum_per_reviewer += rating[reviewer][movie];
         }
 
         ave_per_reviewer = sum_per_reviewer / N_MOVIES;
         printf ("\t --> Average %.1f", ave_per_reviewer);
-        print ("\n");
+        printf ("\n");
     }
     return 0;
 }
